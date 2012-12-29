@@ -6,7 +6,7 @@ in your views.
 
 # Setup
 
-## In your application.js ... or wherever
+## In your application.js (or wherever)
 
     new EventQueue("my_queue", {
       "console:log": function(options){
