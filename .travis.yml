@@ -1,0 +1,2 @@
+script: 'rake spec'
+after_script: 'bundle exec guard-jasmine'
