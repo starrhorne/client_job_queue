@@ -8,17 +8,17 @@ in your views.
 
 ## In your application.js ... or wherever
 
-  new EventQueue("my_queue", {
-    "console:log": function(options){
-      console.log(options);
-    }
-  })
+    new EventQueue("my_queue", {
+      "console:log": function(options){
+        console.log(options);
+      }
+    })
 
 ## In your controller
 
-  def index
-    enqueue_client_job("my_queue", "console:log", "Hello World")
-  end
+    def index
+      enqueue_client_job("my_queue", "console:log", "Hello World")
+    end
 
 # Warning
 
