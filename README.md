@@ -1,5 +1,7 @@
 # Introduction
 
+[![Build Status](https://travis-ci.org/starrhorne/client_job_queue.png?branch=master)](https://travis-ci.org/starrhorne/client_job_queue)
+
 This rails engine lets you invoke client-side workers from your
 controllers without having to do ugly things like dynamically build JS 
 in your views. 
