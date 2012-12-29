@@ -5,7 +5,7 @@ require "client_job_queue/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "client-job-queue"
+  s.name        = "client_job_queue"
   s.version     = ClientJobQueue::VERSION
 
   s.authors       = ["Starr Horne"]
