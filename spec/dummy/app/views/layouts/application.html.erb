@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dummy</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+<%= javascript_tag do %>
+  queue = new EventQueue("_client_queue", {
+    "console:log": function(options){
+      console.log(options);
+    }
+  })
+  queue.events.bind("before", function(a,b){ console.log("before", a, b) } )
+  queue.events.bind("after", function(a,b){ console.log("after", a, b) } )
+<% end %>
+
+
+</body>
+</html>
