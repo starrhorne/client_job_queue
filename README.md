@@ -10,7 +10,7 @@ in your views.
 
 ## In your application.js (or wherever)
 
-    new EventQueue("my_queue", {
+    new JobQueue("my_queue", {
       "console:log": function(options){
         console.log(options);
       }
