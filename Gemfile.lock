@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    client_job_queue (0.0.2)
+    client_job_queue (0.0.3)
       rails (~> 3.2)
 
 GEM

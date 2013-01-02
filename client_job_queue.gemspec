@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.summary       = %q{Ever need to use GA or another analytics service to track an event that happened in your controller? This rails engine lets you do so in a clean way.}
   s.homepage      = "https://www.honeybadger.io"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib,vendor/assets}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 3.2"
   s.add_development_dependency "sqlite3"
